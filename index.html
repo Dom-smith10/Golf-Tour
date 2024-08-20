@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Golf Leaderboard</h1>
+    <div id="leaderboard">
+        <h2>Current Total Scores</h2>
+        <p>Team Biff: <span id="biffTotal">0</span> Points</p>
+        <p>Team Tails: <span id="tailsTotal">0</span> Points</p>
+        
+        <h2>Predicted Final Scores</h2>
+        <p>Team Biff: <span id="biffPredicted">0</span> Points</p>
+        <p>Team Tails: <span id="tailsPredicted">0</span> Points</p>
+
+        <h2>Points Required to Win</h2>
+        <p>Team Biff: <span id="biffToWin">0</span> Points</p>
+        <p>Team Tails: <span id="tailsToWin">0</span> Points</p>
+
+        <h2>Remaining Points</h2>
+        <p><span id="remainingPoints">0</span> Points</p>
+
+        <h2>Previous Matches</h2>
+        <div id="previousMatches">
+            <!-- Dynamically filled with results -->
+        </div>
+
+        <h2>Current and Future Matches</h2>
+        <div id="currentMatches">
+            <!-- Dynamically filled with ongoing and upcoming matches -->
+        </div>
+    </div>
+
+    <nav>
+        <a href="day1.html">Day 1: 4-Ball Matches</a>
+        <a href="day2.html">Day 2: Singles Matches</a>
+        <a href="day3.html">Day 3: Foursomes Scramble</a>
+        <a href="player-profile.html">Player Profiles</a>
+    </nav>
+</body>
+</html>
